@@ -1,0 +1,17 @@
+#########
+#Exclude all
+#########
+*
+!.gitignore
+!img
+!img/*.png
+!img/*.jpg
+!*.jpg
+!*.png
+!*.dat
+!*.pdf
+!*.docx
+!*.r
+!*.py
+!*.csv
+!*.md
