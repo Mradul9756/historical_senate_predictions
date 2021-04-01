@@ -30,7 +30,8 @@ Complete the following analysis in R. Save your .r in this folder and submit to 
 1. If you changed your data set, describe why and what you changed it to here. Or leave this blank if you did not.
 
     ```
-        Describe your data here: I’ve picked the other data set for this learning module. The data set is about historical senate predictions based on forecast methodology. I’ve chosen this for the following reasons:
+        Describe your data here: I’ve picked the other data set for this learning module. The data set is about historical senate predictions based on forecast methodology. 
+I’ve chosen this for the following reasons:
 1. Target variable was clear (which is actual win/loss)
 2. Target variable has two classes: 1 and 0. 1 is for win and 0 is for lose.
 3. Predictor variable was also make sense which is forecast probability (between 0.0 to 1.0)
