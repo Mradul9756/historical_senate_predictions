@@ -56,3 +56,14 @@ I got this data from here: https://github.com/fivethirtyeight/data/blob/master/f
 * NOTE: See pages 107 through 109 for examples of the type of analysis I want to see.
 
 ## Discussion of Model Evaluation (compare and contrast models)
+
+Explanation of the Data:
+
+The data is about the historical democratic senate candidates predictions. The data frame has the variables:
+1. state: Prospective candidate from the State in US
+2. Year: Year on which they’ve fought the elections
+3. Forecast_prob: Future probability of each candidates winning the elections.
+4. Result: Actual results of the elections (Win/Lose)
+5. Winflag: conversion of results in 1 or 0. (1 for win and 0 for lose).
+
+I’ve chosen win flag as a target variable and forecast_prob and year as the predictor variables. Goal was to check how effective forecasts are when predicting winners. 
