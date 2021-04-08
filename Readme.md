@@ -67,3 +67,21 @@ The data is about the historical democratic senate candidates predictions. The d
 5. Winflag: conversion of results in 1 or 0. (1 for win and 0 for lose).
 
 I’ve chosen win flag as a target variable and forecast_prob and year as the predictor variables. Goal was to check how effective forecasts are when predicting winners. 
+
+Training data set: 
+TAN = 55
+TAP = 43
+TPN = 52
+TPP = 46
+
+Test data set:
+TAN = 49
+TAP = 60
+TPN = 50
+TPP = 59
+
+To keep cost matrix simple, I’ve modeled a situation where prediction makers would earn $1000 on each candidate if they have prediction goes right and would lose $1000 if prediction goes wrong.
+
+All of my models have the same accuracy, error rate, sensitivity, specificity, precision, beta, f beta, f1, f2, f5.0. 
+
+However, Model 3 is most profitable with profit per record of -$246.
