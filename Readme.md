@@ -69,16 +69,10 @@ The data is about the historical democratic senate candidates predictions. The d
 I’ve chosen win flag as a target variable and forecast_prob and year as the predictor variables. Goal was to check how effective forecasts are when predicting winners. 
 
 Training data set: 
-TAN = 55
-TAP = 43
-TPN = 52
-TPP = 46
+TAN = 55, TAP = 43, TPN = 52, TPP = 46
 
 Test data set:
-TAN = 49
-TAP = 60
-TPN = 50
-TPP = 59
+TAN = 49, TAP = 60, TPN = 50, TPP = 59
 
 To keep cost matrix simple, I’ve modeled a situation where prediction makers would earn $1000 on each candidate if they have prediction goes right and would lose $1000 if prediction goes wrong.
 
