@@ -3,7 +3,7 @@
 
 
 
-    ```
+    
         Describe your data here: I’ve picked the other data set for this learning module. The data set is about historical senate predictions based on   forecast methodology. 
     I’ve chosen this for the following reasons:
     1. Target variable was clear (which is actual win/loss)
@@ -13,7 +13,7 @@
 
 I got this data from here: https://github.com/fivethirtyeight/data/blob/master/forecast-methodology/historical-senate-predictions.csv
 
-    ```
+    
 2. Create a cost matrix for your data set. These do not have to be "actual" costs, they could be "weights" or importances that you assign to False Positives, True Positives etc, put the values you choose into your cost matrix here.  Note: I would think of a $ cost that's proportional to the "importance" of the records (i.e. what you gain or lose by the particular FP, TP, etc...)
 
 |   |       0       |       1       |
