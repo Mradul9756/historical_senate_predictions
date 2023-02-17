@@ -9,28 +9,18 @@
     2. Target variable has two classes: 1 and 0. 1 is for win and 0 is for lose.
     3. Predictor variable was also make sense which is forecast probability (between 0.0 to 1.0)
     4. I’ve also chosen year as another predictor variable for the better model. 
+    I got this data from here: https://github.com/fivethirtyeight/data/blob/master/forecast-methodology/historical-senate-predictions.csv
 
-I got this data from here: https://github.com/fivethirtyeight/data/blob/master/forecast-methodology/historical-senate-predictions.csv
-
-    
-2. Create a cost matrix for your data set. These do not have to be "actual" costs, they could be "weights" or importances that you assign to False Positives, True Positives etc, put the values you choose into your cost matrix here.  Note: I would think of a $ cost that's proportional to the "importance" of the records (i.e. what you gain or lose by the particular FP, TP, etc...)
+### Cost matrix 
 
 |   |       0       |       1       |
 |---|---------------|---------------|
 | 0 | CostTN = 1000 | CostFP = 1000 |
 | 1 | CostFN = 0    | CostTP = 0    |
 
-
-3. Use the evaluation function given in Session 12, and the cost matrix, in order to evaluate your model that was generated from Cart5 without using a cost matrix, AND, a model generated from Cart5 that used the cost matrix you defined in step 2.  Write up the results of your evaluation below in the section "Discussion of Model Evaluation". Use markdown to make this readable. Also include images in your discussion 
-
-## What I will Look For:
-* Correct evaluation of both models
-* Discussion of Sensitivity and Precision and model cost values. 
-* NOTE: See pages 107 through 109 for examples of the type of analysis I want to see.
-
 ## Discussion of Model Evaluation (compare and contrast models)
 
-Explanation of the Data:
+### Explanation of the Data:
 
 The data is about the historical democratic senate candidates predictions. The data frame has the variables:
 1. state: Prospective candidate from the State in US
