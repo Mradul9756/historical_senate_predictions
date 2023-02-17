@@ -1,33 +1,7 @@
-# LM5 Model Evaluation
-Class: CS251-1 – Introduction to Data Science 
-Last Modified: 3/11/2021
-Whitworth University
-
-For this module you are going to build your skills of building decision tree models.
-
-### Grade Break Down
-| Part   |                    | Points |
-|--------|--------------------|--------| 
-| 15 pts | Model 1 (CART5 trained without costs, evaluated with costs) | |
-| 15 pts | Model 2 (CART5 trained with costs, evaluated with costs)| |
-| 10 pts | Evaluation parameters for both models | |
-| 10 pts | Discussion of results | |
+# Predicting senators from historical data
 
 
 
-### Code Requirements
-- Only use R for this assignment
-- Header comments with your name and data
-- Good and proper comments
-- Proper spacing and neat coding
-
------
-## Model Evaluation using R, CART (and possibly Costs)
-
-Either use your data set from LM4 OR pick a new data set you are interested in. (It can be from the book or online)
-Complete the following analysis in R. Save your .r in this folder and submit to whitgit. 
-
-1. If you changed your data set, describe why and what you changed it to here. Or leave this blank if you did not.
 
     ```
         Describe your data here: I’ve picked the other data set for this learning module. The data set is about historical senate predictions based on   forecast methodology. 
