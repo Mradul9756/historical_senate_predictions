@@ -42,3 +42,7 @@ To keep cost matrix simple, I’ve modeled a situation where prediction makers w
 All of my models have the same accuracy, error rate, sensitivity, specificity, precision, beta, f beta, f1, f2, f5.0. 
 
 However, Model 3 is most profitable with profit per record of -$246.
+
+
+![Models](https://user-images.githubusercontent.com/63217569/219813679-fda60840-e30d-40fb-90c8-9ae6b54cd1fd.jpeg)
+
