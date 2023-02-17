@@ -1,9 +1,3 @@
-# Program: LM5 (Model Evaluation)
-# Class: CS251-1 – Introduction to Data Science
-# Date: 03/31/2021
-# Written by - Mradul Mourya
-# References - Prof. Jones and Textbook by Lacorose
-####################################
 # install the packages for C50
 install.packages("C50")
 library('C50')
@@ -69,7 +63,7 @@ model_eval <- function( cross_tab, costs, beta, model_name ) {
 # Set the context to the current file's folder
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
-senate_data <- read.csv("/Users/mmourya23/Documents/Intro to Data Science/LM5/historical-senate-predictions.csv")
+senate_data <- read.csv("historical-senate-predictions.csv")
 
 # set the seed for the random number generator for later use
 set.seed(7)
