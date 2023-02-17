@@ -3,8 +3,7 @@
 
 
 
-    
-        Describe your data here: I’ve picked the other data set for this learning module. The data set is about historical senate predictions based on   forecast methodology. 
+Describe your data here: I’ve picked the other data set for this learning module. The data set is about historical senate predictions based on   forecast methodology. 
     I’ve chosen this for the following reasons:
     1. Target variable was clear (which is actual win/loss)
     2. Target variable has two classes: 1 and 0. 1 is for win and 0 is for lose.
